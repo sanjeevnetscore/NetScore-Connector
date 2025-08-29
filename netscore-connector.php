@@ -3,7 +3,7 @@
 Plugin Name: NetScore Connector
 Description: A WordPress plugin that adds a form with name, email, and comments fields in the admin dashboard and sends an email to the admin on submission.
 Version: 1.4
-Author: yourname
+Author: NetScore Technologies 
 */
 
 // Prevent direct access to the file
