@@ -1,0 +1,77 @@
+/* Container */
+.wrap-cuf {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+/* Card-style form */
+.cuf-form-container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form table overrides */
+.cuf-form-container .form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cuf-form-container .form-table th {
+    text-align: left;
+    padding: 12px 10px 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    vertical-align: top;
+    width: 120px;
+}
+
+.cuf-form-container .form-table td {
+    padding: 12px 0;
+}
+
+/* Inputs and textarea */
+.cuf-form-container input[type="text"],
+.cuf-form-container input[type="email"],
+.cuf-form-container textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccd0d4;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.cuf-form-container input[type="text"]:focus,
+.cuf-form-container input[type="email"]:focus,
+.cuf-form-container textarea:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 2px rgba(34, 113, 177, 0.25);
+    outline: none;
+}
+
+/* Textarea */
+.cuf-form-container textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Submit button */
+.cuf-form-container .button-primary {
+    background: #2271b1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.cuf-form-container .button-primary:hover {
+    background: #135e96;
+}
